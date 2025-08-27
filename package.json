@@ -48,8 +48,8 @@
     "hugo-bin": "0.81.1",
     "jest": "27.5.1",
     "prettier": "2.5.1",
-    "webpack": "5.70.0",
-    "webpack-cli": "4.9.2"
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
     "@babel/runtime": "7.17.2",
@@ -60,6 +60,6 @@
     "buildTags": "extended"
   },
   "jest": {
-  	"testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.[jt]sx?$"
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.[jt]sx?$"
   }
 }
